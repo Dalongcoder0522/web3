@@ -1,0 +1,29 @@
+{
+  "name": "hardhat-project",
+  "version": "1.0.0",
+  "description": "first hadhat project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dalongcoder0522/web3.git"
+  },
+  "keywords": [
+    "web3.0",
+    "solidity",
+    "hardhat",
+    "ethereum"
+  ],
+  "author": "dalongcode0522",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dalongcoder0522/web3/issues"
+  },
+  "homepage": "https://github.com/Dalongcoder0522/web3#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.9"
+  }
+}

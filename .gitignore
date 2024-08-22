@@ -1,4 +1,7 @@
-.DS_Store
+**/.DS_Store
 .states/
 01_Solidity/artifacts/
-01_Solidity/artifacts/.DS_Store
+/hardhat-project/node_modules/
+/hardhat-project/cache/
+/hardhat-project/artifacts/
+/hardhat-project/ignition/deployments/

@@ -30,8 +30,10 @@ contract DataLocations {
     }
 
     // You can return memory variables
-    function g(uint256[] memory _arr) public returns (uint256[] memory) {
+    function g(uint256[] memory _arr) public pure returns (uint256[] memory) {
         // do something with memory array
+         _arr[0] = 1;
+         return _arr;
     }
 
     function h(uint256[] calldata _arr) external {
