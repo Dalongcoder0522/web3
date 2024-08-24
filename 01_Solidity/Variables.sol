@@ -6,12 +6,19 @@ contract Variables {
     string public text = "Hello";
     uint256 public num = 123;
 
-    function doSomething() public view {
+    function doSomething() public view returns (string memory,string memory){
         // Local variables are not saved to the blockchain.
         uint256 i = 456;
 
         // Here are some global variables
         uint256 timestamp = block.timestamp; // Current block timestamp
         address sender = msg.sender; // address of the caller
+        return strChange(text);
+    }
+
+    function strChange(string storage str) internal view returns(string memory,string memory){
+        str = 'abc';
+        string memory dd = 'efg';
+        return (str,text);
     }
 }

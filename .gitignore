@@ -5,3 +5,8 @@
 /hardhat-project/cache/
 /hardhat-project/artifacts/
 /hardhat-project/ignition/deployments/
+/hardhat-todolist/node_modules/
+/hardhat-todolist/cache/
+/hardhat-todolist/artifacts/
+/hardhat-todolist/.env
+/hardhat-todolist/ignition/deployments/
