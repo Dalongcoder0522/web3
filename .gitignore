@@ -10,3 +10,6 @@
 /hardhat-todolist/artifacts/
 /hardhat-todolist/.env
 /hardhat-todolist/ignition/deployments/
+.deps/
+02_SolidityHigher/artifacts/
+level2/artifacts/
