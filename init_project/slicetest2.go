@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	a := [5]int{6, 5, 4, 3, 2}
@@ -47,7 +49,13 @@ func main() {
 	s6 := append(s5[:3], s5[4:]...)
 	fmt.Println("s5 = ", s5)
 	fmt.Println("s6 = ", s6)
-	s6[0] = 999
+	s66 := append(s5[:3], s5[0:]...) //扩容，s5不重排
+	fmt.Println("s5 = ", s5)
+	fmt.Println("s66 = ", s66)
+	s77 := append(s5[0:2], s5[6:]...) //没扩容，s5重排
+	fmt.Println("s5 = ", s5)
+	fmt.Println("s77 = ", s77)
+	s6[0] = 999 //没扩容，s5,s6指向统一地址
 	fmt.Println("s5 = ", s5)
 	fmt.Println("s6 = ", s6)
 	s5[0] = 888

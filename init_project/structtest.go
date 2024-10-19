@@ -20,6 +20,7 @@ func (a A) setA(v string) {
 }
 
 func (a *A) stringPA() string {
+	//当你有一个结构体指针 a *A，Go 会自动将 a.a 解释为 (*a).a。这是 Go 语言的一种语法糖，简化了指针的使用。
 	return a.a
 }
 
