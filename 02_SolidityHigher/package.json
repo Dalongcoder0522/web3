@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "solc-js": "^1.0.1"
+  }
+}

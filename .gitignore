@@ -12,7 +12,14 @@
 /hardhat-todolist/ignition/deployments/
 .deps/
 02_SolidityHigher/artifacts/
+02_SolidityHigher/node_modules/
 level2/artifacts/
 .idea/web3.0.iml
 *.iml
-*.iml
+/.idea
+/my-go-ethereum/wallet/
+/my-go-ethereum/tmp/
+/02_SolidityHigher/node_modules/
+.idea/vcs.xml
+/go-ethereum/
+/my-go-ethereum/pkg/mod/
