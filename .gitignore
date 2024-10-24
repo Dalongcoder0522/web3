@@ -23,3 +23,7 @@ level2/artifacts/
 .idea/vcs.xml
 /go-ethereum/
 /my-go-ethereum/pkg/mod/
+/Projects/RCCStake/node_modules/
+/Projects/RCCStake/ignition/deployments/
+/Projects/RCCStake/artifacts/
+/Projects/RCCStake/cache/
